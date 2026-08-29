@@ -8,4 +8,15 @@ the time displayed on the LCD accordingly. The PIC24's input capture modules and
 interrupt whenever the user presses the button and incrementing the time on the LCD by one minute or hour. This digital-clock project is used mainly for keeping
 track of time.
 
-Dependencies: There are no external libraries used.
+Dependencies: There are no external libraries needed. 
+MPLAB X IDE version 6.25.
+No OS is needed.
+Windows 10.
+
+
+Executing the program:
+In project properties: Select the PIC24 under 'Device' and the Serial number of your specific PIC24 underneath 'Connect Hardware Tool', then select the XC16 compiler.
+Select 'Make and Program Device Main Project' and then 'Run Main Project'.
+
+
+
